@@ -36,7 +36,7 @@
 </template>
 
 <script>
-import { gsap } from 'gsap';
+import { gsap } from 'gsap/dist/gsap';
 export default {
   name: 'Logo',
   mounted() {
