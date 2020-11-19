@@ -93,5 +93,3 @@ export default {
 </script>
 
 <style src="@/assets/scss/contact.scss" lang="scss" scoped />
-
-
