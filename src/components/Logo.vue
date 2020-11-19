@@ -41,10 +41,11 @@ export default {
   name: 'Logo',
   mounted() {
     gsap.from('.logo', {
+      duration: 1,
       scale: 0.75,
       opacity: 0,
       delay: 0.5,
-      ease: 'easeIn',
+      ease: 'elastic',
     });
   },
 };

@@ -1,0 +1,50 @@
+.form {
+  color: #eee;
+  padding: 0 4rem;
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  form {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    @media (max-width: 700px) {
+      width: 80%;
+    }
+    input {
+      margin: 0.6rem 0;
+      padding: 0.4rem 0.8rem;
+      border: none;
+      outline: none;
+      border-bottom: 1px solid #eee;
+
+      background: transparent;
+      color: #eee;
+
+      &::placeholder {
+        color: #eee;
+      }
+    }
+    button {
+      padding: 0.6rem 0;
+      margin: 1.2rem 0;
+      border: none;
+      outline: none;
+
+      font-size: 1.4rem;
+      font-weight: bolder;
+      color: #39376b;
+
+      cursor: pointer;
+      transition: all 0.4s;
+
+      &:hover {
+        box-shadow: 0 0 10px 5px #2a295c;
+        background: #39376b;
+        color: #eee;
+      }
+    }
+  }
+}

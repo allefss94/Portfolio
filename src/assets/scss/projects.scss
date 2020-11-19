@@ -1,0 +1,53 @@
+.projects {
+  padding: 0 4rem;
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+  color: #eee;
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 5rem;
+  }
+  @media (max-width: 1000px) {
+    padding: 0 2rem;
+  }
+  @media (max-width: 800px) {
+    padding: 0 1rem;
+  }
+}
+.card {
+  display: flex;
+  flex-direction: row;
+  img {
+    width: 250px;
+    height: 206px;
+    margin-left: 0.6rem;
+  }
+  @media (max-width: 800px) {
+    img {
+      display: none;
+    }
+  }
+}
+
+.card-2 {
+  display: flex;
+  flex-direction: row;
+  margin: 1rem 0;
+
+  img {
+    width: 250px;
+    height: 206px;
+    margin-right: 0.6rem;
+  }
+  @media (max-width: 800px) {
+    img {
+      display: none;
+    }
+  }
+}
+
+.info {
+  background: #3f88c5;
+  padding: 0.6rem 1.2rem;
+}

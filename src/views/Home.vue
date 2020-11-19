@@ -14,7 +14,7 @@
         </p>
         <div class="buttons">
           <router-link tag="button" to="/projects">projetos</router-link>
-          <router-link tag="button" to="/projects">contato</router-link>
+          <router-link tag="button" to="/contact">contato</router-link>
         </div>
       </div>
       <img src="@/assets/images/notebook.webp" alt="laptop" />
