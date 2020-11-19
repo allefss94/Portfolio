@@ -5,7 +5,6 @@
       <h1>Contato</h1>
       <form
         name="contact"
-        method="POST"
         netlify
         netlify-honeypot="bot-field"
         @submit.prevent="handleSubmit"
