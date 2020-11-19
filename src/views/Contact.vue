@@ -36,7 +36,7 @@
           type="textarea"
           name="message"
           v-model="form.message"
-          placeholder="Sua Menssagem"
+          placeholder="Sua Mensagem"
           required
         />
         <button type="submit">Enviar</button>
